@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 84%;
+  overflow-x: hidden;
+}
+.body {
+  background-color: #e9fcff;
+  color: #1f1f1f;
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1.7rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 10rem;
+  border-bottom: solid 0.5px #ddd;
+}
+
+.logo-t {
+  font-family: "Playwrite AU QLD", cursive;
+  font-optical-sizing: auto;
+}
+.logo-t:link,
+.nav-link {
+  color: #1f1f1f;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.nav-link {
+  font-size: 1.5rem;
+}
+/* mobile nav */
+.hamburger {
+  display: none;
+}
+.hamburger.active {
+  height: 18.5px;
+}
+.hamburger.active .hamburger-top {
+  transform: rotate(45deg) translate(5px, 5px);
+  z-index: 3;
+}
+
+.hamburger.active .hamburger-middle {
+  opacity: 0;
+}
+
+.hamburger.active .hamburger-bottom {
+  transform: rotate(-45deg) translate(5px, -5px);
+  z-index: 3;
+}
+
+.nav-list.active {
+  display: block;
+}
+
+/* Hero Section */
+.hero-section,
+.hero-t {
+  display: flex;
+  justify-content: center;
+}
+.hero-section {
+  padding: 20rem 0 0 0;
+  gap: 2rem;
+  align-items: center;
+}
+.hero-t {
+  flex-direction: column;
+  align-items: start;
+  max-width: 40%;
+  line-height: 1.6;
+}
+.hero-h {
+  font-size: 2.5rem;
+  padding-bottom: 3rem;
+}
+.hero-h h2 {
+  font-size: 2rem;
+}
+.hero-p {
+  line-height: 1.7;
+}
+
+.hero-img {
+  width: 100%;
+  height: 70vh;
+  border-radius: 7px;
+}
+.sec-2 {
+  padding: 0;
+  gap: 5rem;
+}
+.sec-2 .hero-t {
+  padding-left: 7rem;
+}
+/* Offer Section */
+.offers {
+  color: #e9fcff;
+  background-color: #1a8499;
+  padding: 20rem 3rem;
+}
+.offers-flx {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6rem;
+  line-height: 1.7;
+}
+.o-f-fl {
+  padding-left: 3rem;
+  width: 90%;
+}
+.o-f-fl h3 {
+  font-size: 1.2rem;
+}
+.o-f-fl h1 {
+  font-size: 3rem;
+  padding: 2rem 1rem 1.6rem 0;
+}
+.o-f-flx {
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+}
+.o-icons {
+  font-size: 3rem;
+  align-self: start;
+  /* padding-top: 0.5rem; */
+}
+.o-t h2 {
+  padding-bottom: 3rem;
+}
