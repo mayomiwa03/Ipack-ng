@@ -114,7 +114,9 @@ html {
 .offers {
   color: #e9fcff;
   background-color: #1a8499;
-  padding: 20rem 3rem;
+  padding: 20rem 15rem 25rem 15rem;
+  /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%); */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, -40% 85%);
 }
 .offers-flx {
   display: grid;
@@ -150,4 +152,72 @@ html {
 }
 .o-t h2 {
   padding-bottom: 3rem;
+}
+/* Footer */
+.footer-section {
+  padding: 5rem 15rem;
+}
+.footer-section ul {
+  list-style: none;
+}
+.G-I-T h1 {
+  font-size: 3rem;
+  border-bottom: solid 1px #ccc;
+  /* max-width: 90%; */
+  padding-bottom: 3rem;
+}
+.G-I-T p {
+  padding-top: 3rem;
+}
+.F-A-S {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding-top: 3rem;
+  gap: 15rem;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  gap: 1rem;
+}
+.field input {
+  width: 40rem;
+  padding: 1rem;
+}
+.actions {
+  padding-top: 1rem;
+}
+.act-btn {
+  font-size: 1.2rem;
+  width: 10rem;
+  height: 3rem;
+}
+.F-A-S ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.cpp {
+  padding: 5rem 0 2rem 0;
+  position: relative;
+}
+.copyright {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.signature {
+  color: #1f1f1f;
+  text-decoration: none;
 }

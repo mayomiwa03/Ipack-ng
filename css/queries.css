@@ -90,12 +90,22 @@
     padding: 0 0 5rem 0;
   }
   .offers {
-    padding: 10rem 4rem;
+    padding: 10rem 4rem 15rem 4rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, -40% 95%);
   }
   .offers-flx {
     grid-template-columns: 1fr;
   }
   .o-f-flx {
     max-width: 100%;
+  }
+  .footer-section {
+    padding-top: 3rem;
+    padding: 3rem 3rem 5rem 5rem;
+  }
+  .F-A-S {
+    flex-direction: column;
+    align-items: start;
+    gap: 5rem;
   }
 }
