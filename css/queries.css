@@ -108,4 +108,8 @@
     align-items: start;
     gap: 5rem;
   }
+  .copyright {
+    font-size: 1.1rem;
+    text-align: center;
+  }
 }
